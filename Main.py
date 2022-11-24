@@ -1,8 +1,8 @@
 # tp3
 #alexandre gagnon 401 
-Dans ce code, tu devras affronter des adversaires avec des points de vies.
-Si vos points de vies sont superieures, vous gagnez. Si ils sont inferieurs, vous perdez
-Lorsque tu perds tout tes vies, tu perds"""
+#Dans ce code, tu devras affronter des adversaires avec des points de vies.
+#Si vos points de vies sont superieures, vous gagnez. Si ils sont inferieurs, vous perdez
+#Lorsque tu perds tout tes vies, tu perds!
 import random
 niveau_vie = 20
 jouer = True
@@ -67,6 +67,6 @@ while jouer:
     elif choix == "4":
         jouer = False
     if niveau_vie == 0:
-        #le joueur est poche et il est mort
+        #le joueur vas mourrir
         print("Vous avez perdus toutes vos vies, vous avez perdus")
         jouer = False
